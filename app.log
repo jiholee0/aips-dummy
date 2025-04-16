@@ -1,0 +1,117 @@
+2025-04-15 15:53:00,526 | INFO | app.router.model_router | /result 조회 요청: job_id=1
+2025-04-15 15:53:00,527 | WARNING | app.router.model_router | 결과 없음
+2025-04-15 17:22:59,711 | INFO | app.router.model_router | /result 조회 요청: job_id=1
+2025-04-15 17:22:59,712 | WARNING | app.router.model_router | 결과 없음
+2025-04-15 18:00:54,176 | ERROR | fastapi | Form data requires "python-multipart" to be installed. 
+2025-04-15 18:02:19,105 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:02:19,105 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:02:19,106 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:02:19,106 | INFO | app.router.model_router | 선택된 모델 타입: GNN (0), input_type: mol
+2025-04-15 18:04:55,381 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:04:55,382 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:04:55,382 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:04:55,383 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:04:55,795 | ERROR | app.router.model_router | melting_point 예측 실패: Object of type bytes is not JSON serializable
+2025-04-15 18:04:56,106 | ERROR | app.router.model_router | boiling_point 예측 실패: Object of type bytes is not JSON serializable
+2025-04-15 18:04:56,107 | ERROR | app.router.model_router | vapor_pressure 예측 실패: Unsupported property/model combination: 'vapor_pressure' / '0'
+2025-04-15 18:04:56,108 | ERROR | app.router.model_router | density 예측 실패: Unsupported property/model combination: 'density' / '0'
+2025-04-15 18:04:56,108 | ERROR | app.router.model_router | solubility 예측 실패: Unsupported property/model combination: 'solubility' / '0'
+2025-04-15 18:10:56,276 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:10:56,277 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:10:56,278 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:10:56,278 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:10:56,278 | ERROR | app.router.model_router | melting_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:10:56,279 | ERROR | app.router.model_router | boiling_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:10:56,279 | ERROR | app.router.model_router | vapor_pressure 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:10:56,279 | ERROR | app.router.model_router | density 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:10:56,280 | ERROR | app.router.model_router | solubility 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:12:04,776 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:12:04,776 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:12:04,777 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:12:04,777 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:12:04,777 | ERROR | app.router.model_router | melting_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:12:04,777 | ERROR | app.router.model_router | boiling_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:12:04,778 | ERROR | app.router.model_router | vapor_pressure 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:12:04,778 | ERROR | app.router.model_router | density 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:12:04,778 | ERROR | app.router.model_router | solubility 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,971 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:13:56,972 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:13:56,972 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:13:56,973 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:13:56,973 | ERROR | app.router.model_router | melting_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,973 | ERROR | app.router.model_router | boiling_point 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,974 | ERROR | app.router.model_router | vapor_pressure 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,974 | ERROR | app.router.model_router | density 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,975 | ERROR | app.router.model_router | solubility 예측 실패: can only concatenate str (not "int") to str
+2025-04-15 18:13:56,975 | INFO | app.router.model_router | 결과 저장 완료: job_id=c0c3b5da-4eb6-4c25-9d8b-445bdcfbf82d
+2025-04-15 18:14:29,398 | INFO | app.router.model_router | /result 조회 요청: job_id=c0c3b5da-4eb6-4c25-9d8b-445bdcfbf82d
+2025-04-15 18:14:29,399 | INFO | app.router.model_router | 결과 조회 성공
+2025-04-15 18:15:19,137 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:15:19,138 | INFO | app.services.interpreter | [Interpreter] content 길이: 515 bytes
+2025-04-15 18:15:19,138 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:15:19,138 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:15:19,139 | INFO | app.router.model_router | 결과 저장 완료: job_id=94ed6796-0598-439d-b01b-08adfbf42d00
+2025-04-15 18:15:25,728 | INFO | app.router.model_router | /result 조회 요청: job_id=94ed6796-0598-439d-b01b-08adfbf42d00
+2025-04-15 18:15:25,728 | INFO | app.router.model_router | 결과 조회 성공
+2025-04-15 18:17:59,491 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:17:59,491 | WARNING | app.services.interpreter | [Interpreter] 파일 내용이 비어 있음
+2025-04-15 18:18:20,175 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:18:20,175 | INFO | app.services.interpreter | [Interpreter] content 길이: 3 bytes
+2025-04-15 18:18:20,176 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'smiles', 'model_type': 2, 'chemical_type': 0}}
+2025-04-15 18:18:20,176 | INFO | app.router.model_router | 입력 타입: smiles, 모델 타입: 2
+2025-04-15 18:18:20,176 | INFO | app.router.model_router | 결과 저장 완료: job_id=b49d4a4f-9ec8-4871-809e-735ddb2aed1f
+2025-04-15 18:18:35,980 | INFO | app.router.model_router | /result 조회 요청: job_id=b49d4a4f-9ec8-4871-809e-735ddb2aed1
+2025-04-15 18:18:35,980 | WARNING | app.router.model_router | 결과 없음
+2025-04-15 18:18:47,166 | INFO | app.router.model_router | /result 조회 요청: job_id=b49d4a4f-9ec8-4871-809e-735ddb2aed1f
+2025-04-15 18:18:47,166 | INFO | app.router.model_router | 결과 조회 성공
+2025-04-15 18:37:51,959 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:37:51,959 | INFO | app.services.interpreter | [Interpreter] content 길이: 3 bytes
+2025-04-15 18:37:51,960 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'smiles', 'model_type': 2, 'chemical_type': 0}}
+2025-04-15 18:37:51,960 | INFO | app.router.model_router | 입력 타입: smiles, 모델 타입: 2
+2025-04-15 18:37:51,960 | INFO | app.router.model_router | 결과 저장 완료: job_id=35c309b8-e210-45bb-aef9-0fda6c4f6eb6
+2025-04-15 18:38:01,649 | INFO | app.router.model_router | /result 조회 요청: job_id=35c309b8-e210-45bb-aef9-0fda6c4f6eb6
+2025-04-15 18:38:01,650 | INFO | app.router.model_router | 결과 상태: done
+2025-04-15 18:41:18,527 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:41:18,528 | INFO | app.services.interpreter | [Interpreter] content 길이: 3 bytes
+2025-04-15 18:41:18,528 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'smiles', 'model_type': 2, 'chemical_type': 0}}
+2025-04-15 18:41:18,528 | INFO | app.router.model_router | 입력 타입: smiles, 모델 타입: 2
+2025-04-15 18:41:18,529 | INFO | app.router.model_router | 결과 저장 완료: job_id=715c6060-66fa-4938-899e-2289612ecd81
+2025-04-15 18:41:25,526 | INFO | app.router.model_router | /result 조회 요청: job_id=715c6060-66fa-4938-899e-2289612ecd81
+2025-04-15 18:41:25,526 | INFO | app.router.model_router | 결과 상태: done
+2025-04-15 18:41:29,516 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:41:29,516 | INFO | app.services.interpreter | [Interpreter] content 길이: 3 bytes
+2025-04-15 18:41:29,516 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'smiles', 'model_type': 2, 'chemical_type': 0}}
+2025-04-15 18:41:29,517 | INFO | app.router.model_router | 입력 타입: smiles, 모델 타입: 2
+2025-04-15 18:41:29,517 | INFO | app.router.model_router | 결과 저장 완료: job_id=72a05a88-5911-4640-b5ed-ab65a70bc498
+2025-04-15 18:41:35,997 | INFO | app.router.model_router | /result 조회 요청: job_id=72a05a88-5911-4640-b5ed-ab65a70bc498
+2025-04-15 18:41:35,998 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-15 18:51:50,056 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:51:50,057 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-15 18:51:50,057 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol', 'model_type': 0, 'chemical_type': 0}}
+2025-04-15 18:51:50,057 | INFO | app.router.model_router | 입력 타입: mol, 모델 타입: 0
+2025-04-15 18:51:50,058 | INFO | app.router.model_router | 결과 저장 완료: job_id=0b7525a6-195f-4e38-8bb8-96bd9c5e4ba9
+2025-04-15 18:51:58,268 | INFO | app.router.model_router | /result 조회 요청: job_id=0b7525a6-195f-4e38-8bb8-96bd9c5e4ba9
+2025-04-15 18:51:58,269 | INFO | app.router.model_router | 결과 상태: done
+2025-04-15 18:54:41,767 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:54:41,767 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-15 18:55:06,306 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:55:06,307 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-15 18:55:06,307 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-15 18:55:06,308 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-15 18:55:06,308 | INFO | app.router.model_router | 결과 저장 완료: job_id=1f944c9e-46c7-4743-98fb-8ed41021ddf6
+2025-04-15 18:55:15,965 | INFO | app.router.model_router | /result 조회 요청: job_id=1f944c9e-46c7-4743-98fb-8ed41021ddf6
+2025-04-15 18:55:15,966 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-15 18:55:19,647 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:55:19,648 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-15 18:55:19,648 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-15 18:55:19,648 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-15 18:55:19,649 | INFO | app.router.model_router | 결과 저장 완료: job_id=79cb181a-d8a7-4a9f-b638-8e40b23b7768
+2025-04-15 18:55:25,120 | INFO | app.router.model_router | /result 조회 요청: job_id=79cb181a-d8a7-4a9f-b638-8e40b23b7768
+2025-04-15 18:55:25,121 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-15 18:55:28,032 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-15 18:55:28,033 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-15 18:55:28,033 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-15 18:55:28,033 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-15 18:55:28,033 | INFO | app.router.model_router | 결과 저장 완료: job_id=a97f5def-596c-4aae-be37-482372e201be
+2025-04-15 18:55:32,425 | INFO | app.router.model_router | /result 조회 요청: job_id=a97f5def-596c-4aae-be37-482372e201be
+2025-04-15 18:55:32,425 | INFO | app.router.model_router | 결과 상태: done
