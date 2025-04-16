@@ -1,13 +1,15 @@
-## 1. 서버 실행
+## 서버 실행
 ```bash
 uvicorn app.main:app --reload
 ```
 - --reload : 코드 변경 시 자동으로 서버 재시작 (개발용)
 - 기본 접속 주소 : http://127.0.0.1:8000
 
+
 ## 📘 Swagger 문서  
 - 접속 주소 : http://127.0.0.1:8000/docs
 - OpenAPI 명세 : http://127.0.0.1:8000/openapi.json
+
 
 ## 디렉토리 구조
 ```
