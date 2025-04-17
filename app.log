@@ -115,3 +115,53 @@
 2025-04-15 18:55:28,033 | INFO | app.router.model_router | 결과 저장 완료: job_id=a97f5def-596c-4aae-be37-482372e201be
 2025-04-15 18:55:32,425 | INFO | app.router.model_router | /result 조회 요청: job_id=a97f5def-596c-4aae-be37-482372e201be
 2025-04-15 18:55:32,425 | INFO | app.router.model_router | 결과 상태: done
+2025-04-16 13:47:33,325 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-16 13:47:33,326 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-16 13:47:33,327 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-16 13:47:33,327 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-16 13:47:33,327 | INFO | app.router.model_router | 결과 저장 완료: job_id=62dc5a33-6630-445d-823f-1c33c313df68
+2025-04-16 13:48:03,584 | INFO | app.router.model_router | /result 조회 요청: job_id=62dc5a33-6630-445d-823f-1c33c313df68
+2025-04-16 13:48:03,585 | WARNING | app.router.model_router | 결과 없음
+2025-04-16 13:48:11,988 | INFO | app.router.model_router | /result 조회 요청: job_id=62dc5a33-6630-445d-823f-1c33c313df68
+2025-04-16 13:48:11,989 | WARNING | app.router.model_router | 결과 없음
+2025-04-16 13:48:49,459 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-16 13:48:49,459 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-16 13:48:49,459 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-16 13:48:49,459 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-16 13:48:49,460 | INFO | app.router.model_router | 결과 저장 완료: job_id=c74e5b1c-9512-40e7-be44-fb3574ac3bd6
+2025-04-16 13:49:04,519 | INFO | app.router.model_router | /result 조회 요청: job_id=c74e5b1c-9512-40e7-be44-fb3574ac3bd6
+2025-04-16 13:49:04,519 | INFO | app.router.model_router | 결과 상태: done
+2025-04-16 15:04:58,100 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-16 15:04:58,101 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-16 15:04:58,101 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-16 15:04:58,101 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-16 15:04:58,102 | INFO | app.router.model_router | 결과 저장 완료: job_id=f137c4f0-ec6a-4df0-bf6f-52413d9a2d97
+2025-04-16 15:05:04,217 | INFO | app.router.model_router | /result 조회 요청: job_id=f137c4f0-ec6a-4df0-bf6f-52413d9a2d97
+2025-04-16 15:05:04,217 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 15:05:10,858 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-16 15:05:10,859 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-16 15:05:10,859 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-16 15:05:10,860 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-16 15:05:10,860 | INFO | app.router.model_router | 결과 저장 완료: job_id=463c6a47-661a-48a8-ad7d-fbbd328c5a80
+2025-04-16 15:05:16,022 | INFO | app.router.model_router | /result 조회 요청: job_id=463c6a47-661a-48a8-ad7d-fbbd328c5a80
+2025-04-16 15:05:16,023 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:53:26,032 | INFO | app.router.model_router | /predict 요청 수신
+2025-04-16 17:53:26,033 | INFO | app.services.interpreter | [Interpreter] content 길이: 471 bytes
+2025-04-16 17:53:26,033 | INFO | app.services.interpreter | [Interpreter] 해석 결과: {'valid': True, 'type': {'input_type': 'mol_3d', 'model_type': 1, 'chemical_type': 0}}
+2025-04-16 17:53:26,033 | INFO | app.router.model_router | 입력 타입: mol_3d, 모델 타입: 1
+2025-04-16 17:53:26,034 | INFO | app.router.model_router | job_id 생성: 498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:53:33,127 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:53:33,153 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:57:05,926 | INFO | app.tasks.worker | [WORKER] 예측 job 실행: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:06,001 | INFO | app.tasks.worker | [WORKER] job_id=498bf93d-e9a7-4be2-bb00-5991d700b258 처리 완료
+2025-04-16 17:57:12,110 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:12,123 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:57:13,983 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:14,007 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:57:15,585 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:15,613 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:57:57,448 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:57,466 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-16 17:57:59,476 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
+2025-04-16 17:57:59,515 | INFO | app.router.model_router | 결과 상태: processing
+2025-04-17 10:38:41,176 | INFO | app.router.model_router | /result 조회 요청: job_id=498bf93d-e9a7-4be2-bb00-5991d700b258
